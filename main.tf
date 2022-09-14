@@ -1,1 +1,6 @@
-this is first file in terrafrom repo
+provider "aws" {
+    region = "eu-north-1"
+    access_key = ""
+    secret_key = ""
+  
+}
