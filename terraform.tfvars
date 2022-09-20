@@ -1,4 +1,8 @@
-cidr_blocks = [ 
-    {cidr_block = "10.0.0.0/16", name = "dev-vpc"},
-    {cidr_block = "10.0.10.0/24", name = "dev-subnet" }
-]
+vpc_cidr_block = "10.0.0.0/16"
+subnet_cidr_block = "10.0.10.0/24"
+avail_zone = "eu-north-1a"
+env_prefix ="dev"
+my_ip = "91.154.31.115/32"
+ami = "ami-078e13ebe3b027f1c"
+instance_type = "t3.micro"
+#public_key_location = "C:/Users/yoyob/.ssh/id_rsa.pub"
